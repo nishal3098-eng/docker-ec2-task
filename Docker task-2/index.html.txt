@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Me</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 40px 60px;
+      border-radius: 16px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+      text-align: center;
+      max-width: 500px;
+    }
+    h1 { margin-bottom: 10px; font-size: 2.2rem; }
+    .role { color: #ffd57a; margin-bottom: 24px; }
+    .detail {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+    .detail:last-child { border-bottom: none; }
+    .label { font-weight: 600; }
+    .footer { margin-top: 24px; font-size: 0.85rem; opacity: 0.7; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Nishal Lourduraj</h1>
+    <p class="role">Software Engineer</p>
+    <div class="detail"><span class="label">Email:</span><span>your-email@example.com</span></div>
+    <div class="detail"><span class="label">Location:</span><span>Chennai, India</span></div>
+    <div class="detail"><span class="label">GitHub:</span><span>nishal3098-eng</span></div>
+    <div class="detail"><span class="label">Skills:</span><span>AWS, Docker, Linux</span></div>
+    <p class="footer">Running inside a Docker container on AWS EC2</p>
+  </div>
+</body>
+</html>

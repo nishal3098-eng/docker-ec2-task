@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Custom Nginx | Docker Task 3</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background: rgba(255,255,255,0.08);
+      backdrop-filter: blur(12px);
+      padding: 40px 60px;
+      border-radius: 16px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+      text-align: center;
+      max-width: 600px;
+    }
+    h1 { color: #00e5ff; margin-bottom: 10px; }
+    h2 { color: #ffd57a; font-weight: 400; margin-top: 0; }
+    p { line-height: 1.6; }
+    .tag {
+      display: inline-block;
+      background: rgba(0,229,255,0.15);
+      color: #00e5ff;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin: 4px;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Docker Task 3</h1>
+    <h2>Custom Nginx Image + Bind Mount</h2>
+    <p>Served from a custom Docker image with a volume bind mount at <code>/var/opt/nginx</code>.</p>
+    <p>
+      <span class="tag">AWS EC2</span>
+      <span class="tag">Docker</span>
+      <span class="tag">Docker Compose</span>
+      <span class="tag">Nginx</span>
+    </p>
+    <p style="font-size: 0.85rem; opacity: 0.7; margin-top: 30px;">
+      Image pushed to Docker Hub by Nishal Lourduraj
+    </p>
+  </div>
+</body>
+</html>

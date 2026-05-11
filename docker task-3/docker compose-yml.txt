@@ -1,0 +1,10 @@
+services:
+  nginx-custom:
+    build: .
+    image: nishal3098/custom-nginx:v1
+    container_name: custom-nginx
+    ports:
+      - "80:80"
+    volumes:
+      - /var/opt/nginx:/var/opt/nginx
+    restart: unless-stopped
